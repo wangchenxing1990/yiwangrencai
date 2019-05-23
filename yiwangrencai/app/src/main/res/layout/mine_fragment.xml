@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mine_fragment_popuwind"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/title_login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f0f0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <!--投递简历-->
+            <RelativeLayout
+                android:id="@+id/rl_mine_send_resume"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_post"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/cell_post2x" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_post"
+                    android:text="投递简历" />
+
+                <ImageView
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/view_line" />
+
+            <!--面试通知-->
+            <RelativeLayout
+                android:id="@+id/rl_mine_interview_inform"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_notification"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/cell_horn2x" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_notification"
+                    android:text="面试通知" />
+
+                <ImageView
+                    android:id="@+id/image"
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+
+                <TextView
+                    android:id="@+id/text_notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@id/image"
+                    android:gravity="center"
+                    android:text="您有5个面试通知" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:background="#f0f0f0" />
+            <!--职位收藏-->
+            <RelativeLayout
+                android:id="@+id/rl_mine_work_collect"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_start"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/cell_star2x" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_start"
+                    android:text="职位收藏" />
+
+                <ImageView
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:background="#f0f0f0" />
+            <!--谁看过我-->
+            <RelativeLayout
+                android:id="@+id/rl_mine_look_me"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_see_me"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/cell_square_eye2x" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_see_me"
+                    android:text="谁看过我" />
+
+                <ImageView
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/view_line" />
+
+            <!--浏览记录-->
+            <RelativeLayout
+                android:id="@+id/rl_mine_browsing_history"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_look"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/brows_history" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_look"
+                    android:text="浏览记录" />
+
+                <ImageView
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/view_line" />
+
+            <!--搜索器-->
+            <RelativeLayout
+                android:id="@+id/rl_mine_seacher"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_search"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/search_cell" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_search"
+                    android:text="搜索器" />
+
+                <ImageView
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:background="#f0f0f0" />
+
+            <RelativeLayout
+                android:id="@+id/rl_mine_apply"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_apply"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/entry_name" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_apply"
+                    android:text="报名的兼职" />
+
+                <ImageView
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/view_line" />
+
+            <RelativeLayout
+                android:id="@+id/rl_mine_receive_part"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_receive_part"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/part_invite" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_receive_part"
+                    android:text="收到的兼职邀请" />
+
+                <ImageView
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:background="#f0f0f0" />
+            <!--系统设置-->
+            <RelativeLayout
+                android:id="@+id/rl_mine_system_setting"
+                style="@style/mine_fragment_item">
+
+                <ImageView
+                    android:id="@+id/image_system_set"
+                    style="@style/mine_item_image_left"
+                    android:src="@mipmap/system_setting" />
+
+                <TextView
+                    style="@style/mine_item_text"
+                    android:layout_toRightOf="@id/image_system_set"
+                    android:text="系统设置" />
+
+                <ImageView
+                    style="@style/mine_item_image_right"
+                    android:src="@mipmap/icon_next" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

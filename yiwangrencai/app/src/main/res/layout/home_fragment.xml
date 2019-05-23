@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_popuwind"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fram_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#46BFB2">
+
+        <TextView
+            android:id="@+id/et_home_fragment_search"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape_white_background"
+            android:gravity="center"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:text="请输入查询的职位或公司"
+            android:textColor="#999999"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F0F0F0"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.yiwangrencai.ywkj.view.RecyclerViewHeader
+        android:id="@+id/recycler_view_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:background="#EBECEC">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBECEC"
+            android:orientation="vertical">
+            <com.jude.rollviewpager.RollPagerView
+                android:id="@+id/rollPagerView"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:rollviewpager_hint_alpha="00"
+                app:rollviewpager_play_delay="3000"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/ll_refresh_resume"
+                    style="@style/recycler_header_lay">
+
+                    <ImageView
+                        style="@style/recycler_header_lay_image_view"
+                        android:src="@mipmap/btn_index_refresh3x"/>
+
+                    <TextView
+                        style="@style/recycler_header_lay_text_view"
+                        android:text="刷新简历" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_find_work"
+                    style="@style/recycler_header_lay">
+                    <ImageView
+                        style="@style/recycler_header_lay_image_view"
+                        android:src="@mipmap/btn_index_work3x"/>
+                    <TextView
+                        style="@style/recycler_header_lay_text_view"
+                        android:text="找工作"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_high_search"
+                    style="@style/recycler_header_lay">
+                    <ImageView
+                        style="@style/recycler_header_lay_image_view"
+                        android:src="@mipmap/btn_index_search3x"/>
+                    <TextView
+                        style="@style/recycler_header_lay_text_view"
+                        android:text="高级搜索"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_location_work"
+                    style="@style/recycler_header_lay">
+                    <ImageView
+                        style="@style/recycler_header_lay_image_view"
+                        android:src="@mipmap/btn_index_location3x"/>
+                    <TextView
+                        style="@style/recycler_header_lay_text_view"
+                        android:text="附近工作"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffffff"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/ll_part_time"
+                    style="@style/recycler_header_lay">
+                    <ImageView
+                        style="@style/recycler_header_lay_image_view"
+                        android:src="@mipmap/btn_index_part"/>
+                    <TextView
+                        style="@style/recycler_header_lay_text_view"
+                        android:text="兼职搜索"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_find"
+                    style="@style/recycler_header_lay">
+                    <ImageView
+                        style="@style/recycler_header_lay_image_view"
+                    android:src="@mipmap/btn_index_findx"
+                        />
+                    <TextView
+                        style="@style/recycler_header_lay_text_view"
+                        android:text="发现"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_part_timee"
+                    style="@style/recycler_header_lay">
+                    <ImageView
+                        style="@style/recycler_header_lay_image_view"
+                        />
+                    <!--android:src="@mipmap/btn_index_location3x"-->
+                    <TextView
+                        style="@style/recycler_header_lay_text_view"
+                        android:text=""/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_part_times"
+                    style="@style/recycler_header_lay">
+                    <ImageView
+                        style="@style/recycler_header_lay_image_view"
+                       />
+                    <!--android:src="@mipmap/btn_index_location3x"-->
+                    <TextView
+                        style="@style/recycler_header_lay_text_view"
+                        android:text=""/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="-----根据您的简历,为您推荐以下职位-----"
+                android:textColor="#4ED2D5"
+                android:textSize="15dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        </com.yiwangrencai.ywkj.view.RecyclerViewHeader>
+    </FrameLayout>
+</LinearLayout>

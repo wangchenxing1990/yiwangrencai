@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="35dp">
+
+
+    <TextView
+        android:id="@+id/textview_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017"
+        android:textColor="@color/color_text_thre"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="14sp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/textview_content"
+        android:background="@color/color_text"
+        />
+
+    <TextView
+        android:id="@+id/language_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CECT"
+        android:ellipsize="end"
+        android:maxEms="8"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/view"
+        android:textColor="@color/color_text"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="1dp"
+            android:layout_height="14sp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/language_level"
+            android:background="@color/color_text"
+            />
+
+        <TextView
+            android:id="@+id/textview_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="熟练程度"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/view2"
+            android:textColor="@color/color_text"/>
+
+</RelativeLayout>
+</RelativeLayout>

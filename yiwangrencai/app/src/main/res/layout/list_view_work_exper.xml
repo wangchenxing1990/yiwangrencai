@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/texttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-03"
+                android:textSize="13dp"
+                android:textColor="#aaaaaa"/>
+            <TextView
+                android:id="@+id/textzhiyu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="至"
+                android:textSize="13dp"
+                android:textColor="#aaaaaa"/>
+            <TextView
+                android:id="@+id/texttimeend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-03"
+                android:textSize="13dp"
+                android:textColor="#aaaaaa"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textworkname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="职位名称"
+                android:textColor="#666666"
+                android:textSize="15dp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#555555"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/textcompanyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="职位名称"
+                android:ellipsize="end"
+                android:maxEms="13"
+                android:maxLines="1"
+                android:textColor="#666666"
+                android:textSize="15dp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="10dp"
+                android:id="@+id/view_line"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="#434343"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/textworkarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="职位名称"
+                android:textColor="#666666"
+                android:maxEms="10"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@mipmap/icon_next"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

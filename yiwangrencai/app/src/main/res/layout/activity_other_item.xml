@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_popuwind"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/text_color_green">
+
+        <FrameLayout
+            android:id="@+id/fram_job_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/btn_back2x"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/title_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他信息"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:textSize="18dp"/>
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+
+            >
+            <TextView
+                android:id="@+id/tv_add_save"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="保存"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:textColor="#ffffff"
+                android:textSize="18dp"/>
+        </FrameLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_skill_name"
+        style="@style/relation_editor_resume">
+
+        <TextView
+            android:id="@+id/textskillname"
+            style="@style/base_item_iformation"
+            android:layout_marginLeft="10dp"
+            android:text="主题" />
+        <TextView
+            style="@style/text_start"
+            android:layout_toRightOf="@id/textskillname" />
+
+        <ImageView
+            android:id="@+id/icon_image_next_basic"
+            style="@style/base_iamge_item_information" />
+
+        <TextView
+            android:id="@+id/tv_input_skill_name"
+            style="@style/base_item_iformation"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_color_b5"
+            android:layout_toLeftOf="@id/icon_image_next_basic"
+            android:text="请输入证书名称" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+    <!-- 性别-->
+    <RelativeLayout
+        android:id="@+id/rl_skill_degree"
+        style="@style/relation_editor_resume">
+
+        <TextView
+            android:id="@+id/texttimeskill"
+            style="@style/base_item_iformation"
+            android:layout_marginLeft="10dp"
+            android:text="内容描述" />
+        <TextView
+            style="@style/text_start"
+            android:layout_toRightOf="@id/texttimeskill" />
+
+        <ImageView
+            android:id="@+id/icon_image_next_sex"
+            style="@style/base_iamge_item_information" />
+
+        <TextView
+            android:id="@+id/tv_skill_level"
+            style="@style/base_item_iformation"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_color_b5"
+            android:ellipsize="end"
+            android:maxEms="13"
+            android:maxLines="1"
+            android:layout_toLeftOf="@id/icon_image_next_sex"
+            android:text="请选择获得时间" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+    <!-- 生日 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:id="@+id/linearLayout_delete"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/btn_delete_n2x"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#ff8000"
+                android:text="删除"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

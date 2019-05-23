@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white_background"
+    android:layout_marginRight="3dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="0dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="34533335"
+            android:ellipsize="end"
+            android:maxEms="13"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textColor="@color/home_text_color"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/textdistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="912米"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/color_text_aaa"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2sp"
+            android:layout_toLeftOf="@id/textdistance"
+            android:src="@mipmap/icon_address_m3x"
+            />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/textjobtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北京圣华家具有dddddd"
+            android:textColor="@color/home_text_color"
+            android:textSize="14sp"
+            android:maxLines="1"
+            android:maxEms="13"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:id="@+id/textsalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6000-7000元/月"
+            android:textColor="@color/color_text_yellow"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

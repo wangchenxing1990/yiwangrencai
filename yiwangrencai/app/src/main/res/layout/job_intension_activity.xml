@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_popuwind"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        style="@style/public_title">
+
+        <FrameLayout
+            android:id="@+id/iv_back_basic"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_selector"
+            android:clickable="true">
+        <ImageView
+            android:layout_gravity="center"
+            style="@style/public_image_back"
+            android:visibility="invisible"/>
+        </FrameLayout>
+        <TextView
+            style="@style/public_text_middle"
+            android:text="求职意向" />
+
+        <TextView
+            android:id="@+id/tv_next_intension"
+            style="@style/public_text_next"
+            android:text="下一步" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="#f0f0f0"
+                android:orientation="horizontal"
+                android:paddingTop="7dp">
+
+                <LinearLayout style="@style/resume_editor_four_layout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:id="@+id/tv_one_number"
+                            style="@style/resume_progress_text"
+                            android:background="@drawable/shape_base_circle_green"
+                            android:text="1" />
+
+                        <View
+                            style="@style/editor_resume_text"
+                            android:layout_toRightOf="@id/tv_one_number"
+                            android:background="#42bfb6" />
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/base_information_edit_progress"
+                        android:text="基本资料"
+                        android:textColor="@color/text_color_green" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/resume_editor_four_layout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <View style="@style/editor_resume_text"
+                            android:background="#42bfb6"/>
+
+                        <TextView
+                            android:id="@+id/tv_two_number"
+                            style="@style/resume_progress_text"
+                            android:background="@drawable/shape_base_circle_green"
+                            android:text="2" />
+
+                        <View
+                            style="@style/editor_resume_text"
+                            android:layout_toRightOf="@id/tv_two_number"
+                            android:background="#42bfb6"/>
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/base_information_edit_progress"
+                        android:textColor="#42bfb6"
+                        android:text="求职意向" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/resume_editor_four_layout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <View style="@style/editor_resume_text" />
+
+                        <TextView
+                            android:id="@+id/tv_three_number"
+                            style="@style/resume_progress_text"
+                            android:background="@drawable/shape_base_circle"
+                            android:text="3" />
+
+                        <View
+                            style="@style/editor_resume_text"
+                            android:layout_toRightOf="@id/tv_three_number" />
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/base_information_edit_progress"
+                        android:text="教育背景" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/resume_editor_four_layout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:id="@+id/tv_four_number"
+                            style="@style/resume_progress_text"
+                            android:background="@drawable/shape_base_circle"
+                            android:text="4" />
+
+                        <View
+                            style="@style/editor_resume_text"
+                            android:layout_toLeftOf="@id/tv_four_number" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/base_information_edit_progress"
+                        android:text="工作经历" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_salary_expection"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_intent_sarly"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="期望薪资" />
+
+                <TextView
+                    style="@style/text_start"
+                    android:layout_toRightOf="@id/text_intent_sarly"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_basic"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_select_saraly"
+                    style="@style/base_item_iformation"
+                    android:textColor="@color/text_color_b"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_basic"
+                    android:text="选择期望薪资" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+            <!-- 性别-->
+            <RelativeLayout
+                android:id="@+id/rl_discuss_personally"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_interview"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="显示面议" />
+                <TextView
+                    style="@style/text_start"
+                    android:layout_toRightOf="@id/text_interview"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_sex"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_view_disscuess"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text_color_b"
+                    android:layout_toLeftOf="@id/icon_image_next_sex"
+                    android:text="显示面议" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+            <!-- 生日 -->
+            <RelativeLayout
+                android:id="@+id/rl_intension_job"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_intent_work"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="意向工作岗位" />
+                <TextView
+                    style="@style/text_start"
+                    android:layout_toRightOf="@id/text_intent_work"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_birthday"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/textViewIntentsion_work"
+                    style="@style/base_item_iformation"
+                    android:text="请输入意向工作岗位"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/text_color_b"
+                    android:layout_toLeftOf="@+id/icon_image_next_birthday"
+                    android:layout_toStartOf="@+id/icon_image_next_birthday" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+            <!--学历-->
+            <RelativeLayout
+                android:id="@+id/rl_place_job"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_work_location"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="工作岗位" />
+                <TextView
+                    style="@style/text_start"
+                    android:layout_toRightOf="@id/text_work_location"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_education"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_select_work"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text_color_b"
+                    android:layout_toLeftOf="@id/icon_image_next_education"
+                    android:maxEms="10"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="请选择工作岗位" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+            <RelativeLayout
+                android:id="@+id/rl_work_area"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_work_address"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="工作地区" />
+                <TextView
+                    style="@style/text_start"
+                    android:layout_toRightOf="@id/text_work_address"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_work"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_select_area_work"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_work"
+                    android:textColor="@color/text_color_b"
+                    android:maxEms="10"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="请选择工作地区" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

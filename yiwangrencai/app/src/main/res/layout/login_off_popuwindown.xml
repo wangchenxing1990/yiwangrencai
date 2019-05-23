@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:id="@+id/login_off_popuwindow"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/shape_white_background"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="确认是否退出"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+        <!--android:background="@drawable/background_selector_editor"-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#e0e0e0"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_off_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:clickable="true"
+            android:text="取消"
+            android:textColor="#0000ff"/>
+
+        <!--android:background="@drawable/background_selector_editor"-->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="#e0e0e0"/>
+        <TextView
+            android:id="@+id/tv_off_sure"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:clickable="true"
+            android:text="确定"
+            android:textColor="#0000ff"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

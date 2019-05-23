@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conv_fragment_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48.5dp"
+        android:background="@color/jmui_jpush_blue">
+
+        <TextView
+            android:id="@+id/main_title_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:text="消息"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/create_group_btn"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/msg_title_bar_right_btn_bg"
+            android:src="@mipmap/msg_titlebar_right_btn"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_message"
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/foot_message" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/image"
+            android:gravity="center"
+            android:text="面试通知"
+            android:textColor="@color/color_text_aaa"
+            android:textSize="15sp" />
+
+
+        <ImageView
+            android:id="@+id/image_right"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/text_bags"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/image_right"
+            android:gravity="center"
+            android:text="1条面试通知"
+            android:textColor="@color/color_text_aaa"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="10dp"
+            android:background="@color/view_line" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/null_conversation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:text="暂无会话"
+            android:textColor="#999999"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/conv_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:divider="@drawable/main_list_divider_line"
+        android:dividerHeight="0.3dp"
+        android:headerDividersEnabled="false" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radio_home"
+            android:drawableTop="@drawable/foot_home"
+            android:textColor="@drawable/foot_text_color"
+            android:text="首页"
+            style="@style/radio_button"
+            />
+        <RadioButton
+            android:id="@+id/radio_message"
+            android:drawableTop="@drawable/foot_message"
+            android:textColor="@drawable/foot_text_color"
+            android:text="消息"
+            style="@style/radio_button"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_resume"
+            android:textColor="@drawable/foot_text_color"
+            android:drawableTop="@drawable/foot_resume"
+            android:text="简历"
+            style="@style/radio_button"
+             />
+
+        <RadioButton
+            android:id="@+id/radio_mine"
+            android:textColor="@drawable/foot_text_color"
+            android:drawableTop="@drawable/foot_mine"
+            android:text="我的"
+            style="@style/radio_button"
+            />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#d6d2d2"
+        android:layout_above="@id/radio_group"/>
+    <FrameLayout
+        android:id="@+id/mianActivity_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/view"
+        />
+
+    <TextView
+    android:id="@+id/text_notifiction_number"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:background="@drawable/shape_ovial_red"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="13dp"
+    android:layout_marginBottom="25dp"
+    android:visibility="invisible"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:gravity="center"
+    android:text="8"
+    android:textColor="#ffffff"
+    android:textSize="13dp"/>
+
+</RelativeLayout>

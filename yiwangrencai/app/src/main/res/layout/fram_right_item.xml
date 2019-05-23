@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_school_right"
+        style="@style/relation_editor_resume">
+
+        <TextView
+            android:id="@+id/text_school_name"
+            style="@style/base_item_iformation"
+            android:layout_marginLeft="10dp"
+            android:text="培训机构" />
+
+        <TextView
+            style="@style/text_start"
+            android:layout_toRightOf="@id/text_school_name"/>
+
+        <ImageView
+            android:id="@+id/icon_image_next_basic"
+            style="@style/base_iamge_item_information" />
+
+        <TextView
+            android:id="@+id/tv_input_school_right"
+            style="@style/base_item_iformation"
+            android:textColor="@color/text_color_b5"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/icon_image_next_basic"
+            android:text="请输入培训机构名称" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+    <!-- 性别-->
+    <RelativeLayout
+        android:id="@+id/rl_time_right"
+        style="@style/relation_editor_resume">
+
+        <TextView
+            android:id="@+id/text_entry_time"
+            style="@style/base_item_iformation"
+            android:layout_marginLeft="10dp"
+            android:text="入学时间" />
+        <TextView
+            style="@style/text_start"
+            android:layout_toRightOf="@id/text_entry_time"/>
+        <ImageView
+            android:id="@+id/icon_image_next_sex"
+            style="@style/base_iamge_item_information" />
+
+        <TextView
+            android:id="@+id/tv_eentry_right"
+            style="@style/base_item_iformation"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_color_b5"
+            android:layout_toLeftOf="@id/icon_image_next_sex"
+            android:text="请选择入学时间" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+    <!-- 生日 -->
+    <RelativeLayout
+        android:id="@+id/rl_gradution_right"
+        style="@style/relation_editor_resume">
+
+        <TextView
+            android:id="@+id/text_leave_time"
+            style="@style/base_item_iformation"
+            android:layout_marginLeft="10dp"
+            android:text="毕业时间" />
+
+        <TextView
+            style="@style/text_start"
+            android:layout_toRightOf="@id/text_leave_time"/>
+
+        <ImageView
+            android:id="@+id/icon_image_next_birthday"
+            style="@style/base_iamge_item_information" />
+
+        <TextView
+            android:id="@+id/tv_gradution_right"
+            style="@style/base_item_iformation"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_color_b5"
+            android:layout_toLeftOf="@id/icon_image_next_birthday"
+            android:text="至今" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background"
+        />
+
+    <!--学历-->
+    <RelativeLayout
+        android:id="@+id/rl_major_right"
+        style="@style/relation_editor_resume">
+
+        <TextView
+            android:id="@+id/text_progress_name"
+            style="@style/base_item_iformation"
+            android:layout_marginLeft="10dp"
+            android:text="培训项目" />
+
+        <TextView
+            style="@style/text_start"
+            android:layout_toRightOf="@id/text_progress_name"/>
+
+        <ImageView
+            android:id="@+id/icon_image_next_education"
+            style="@style/base_iamge_item_information" />
+
+        <TextView
+            android:id="@+id/tv_input_major_right"
+            style="@style/base_item_iformation"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_color_b5"
+            android:layout_toLeftOf="@id/icon_image_next_education"
+            android:text="请输入培训项目" />
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+
+    <RelativeLayout
+        android:id="@+id/rl_discrub_right"
+        style="@style/relation_editor_resume">
+
+        <TextView
+            style="@style/base_item_iformation"
+            android:layout_marginLeft="10dp"
+            android:text="描述" />
+
+        <ImageView
+            android:id="@+id/icon_image_next_static"
+            style="@style/base_iamge_item_information" />
+
+        <TextView
+            android:id="@+id/tv_describe_right"
+            style="@style/base_item_iformation"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text_color_b5"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxEms="13"
+            android:layout_toLeftOf="@id/icon_image_next_static"
+            android:text="请输入描述" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:id="@+id/linearLayout_delete_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_selector_editor"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/btn_delete_n2x"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:textColor="#ff8000"
+                android:text="删除"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
+

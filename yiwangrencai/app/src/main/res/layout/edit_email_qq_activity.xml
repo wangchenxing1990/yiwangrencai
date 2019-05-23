@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_popuwind"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        style="@style/public_title">
+
+        <FrameLayout
+            android:id="@+id/iv_back_basic"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_selector"
+            android:clickable="true">
+            <ImageView
+                android:layout_gravity="center"
+                style="@style/public_image_back" />
+        </FrameLayout>
+        <TextView
+            style="@style/public_text_middle"
+            android:text="联系方式" />
+
+        <TextView
+            android:id="@+id/tv_next_basic"
+            style="@style/public_text_next"
+            android:text="保存" />
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/rl_phone"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_name"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="手机号码" />
+                <TextView
+                    style="@style/text_start"
+                    android:layout_toRightOf="@id/text_name"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_basic"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_input_phone"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_basic"
+                    android:text="1333333333" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+            <!-- 常用邮箱-->
+            <RelativeLayout
+                android:id="@+id/rl_email"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="常用邮箱" />
+
+                <ImageView
+                    android:id="@+id/icon_image_next_sex"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_email_input"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_sex"
+                    android:text="18317770484@163.com" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+            <!-- qq -->
+            <RelativeLayout
+                android:id="@+id/rl_qq"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="qq" />
+
+                <ImageView
+                    android:id="@+id/icon_image_next_birthday"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_input_qq"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_birthday"
+                    android:text="1064920856" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

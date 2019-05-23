@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text_job_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:maxEms="15"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:text="Bingo"
+                android:textColor="@color/home_text_color"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/text_part_states"
+                android:layout_width="30dp"
+                android:layout_height="15dp"
+                android:maxLines="1"
+                android:maxEms="30"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:layout_marginLeft="5dp"
+                android:ellipsize="end"
+                android:text="实习"
+                android:background="#e3534f"
+                android:textColor="#b5b5b5"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:id="@+id/text_updatetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:text="2017-05-03"
+                android:gravity="right"
+                android:textColor="@color/color_text_cc"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bingo"
+                android:maxLines="1"
+                android:maxEms="10"
+                android:ellipsize="end"
+                android:textColor="@color/home_text_color"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:visibility="invisible"
+                android:background="#b5b5b5"/>
+
+            <TextView
+                android:id="@+id/text_updatetimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="2017-05-03"
+                android:visibility="invisible"
+                android:textColor="#959595"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@mipmap/icon_address_m3x"/>
+
+            <TextView
+                android:id="@+id/text_location_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="4"
+                android:ellipsize="end"
+                android:textColor="@color/color_text"
+                android:textSize="14sp"
+                android:text="北戴河"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/icon_user_m3x"/>
+
+            <TextView
+                android:id="@+id/text_education_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_text"
+                android:layout_marginLeft="3dp"
+                android:textSize="14sp"
+                android:text="高中"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_text"
+                android:textSize="14sp"
+                android:text="/"/>
+
+            <TextView
+                android:id="@+id/text_work_year_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_text"
+                android:textSize="14sp"
+                android:text="经验不限"/>
+
+            <TextView
+                android:id="@+id/text_salary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_text_yellow"
+                android:layout_marginLeft="5dp"
+                android:gravity="right"
+                android:textSize="15dp"
+                android:text="2000-35000元/月"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_text_yellow"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"
+                android:visibility="gone"
+                android:text="元/月"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

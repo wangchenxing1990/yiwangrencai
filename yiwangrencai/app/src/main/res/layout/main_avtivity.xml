@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <!--这是首页的布局-->
+        <LinearLayout
+        android:id="@+id/linearLayout_home"
+        style="@style/tab_home_style">
+
+        <ImageView
+            android:id="@+id/home_icon"
+            style="@style/tab_image"
+            android:src="@mipmap/tab_home_n3x"/>
+
+        <TextView
+            android:id="@+id/home_text"
+            style="@style/tab_text"
+            android:text="首页"/>
+
+    </LinearLayout>
+
+
+        <!--这是简历的布局-->
+        <LinearLayout
+            android:id="@+id/linearLayout_resume"
+            style="@style/tab_home_style">
+
+            <ImageView
+                android:id="@+id/resume_icon"
+                style="@style/tab_image"
+                android:src="@mipmap/tab_resume_n3x"/>
+
+            <TextView
+                android:id="@+id/resume_text"
+                style="@style/tab_text"
+                android:text="简历"/>
+
+        </LinearLayout>
+
+        <!--这是发现的布局-->
+        <LinearLayout
+            android:id="@+id/linearLayout_find"
+            style="@style/tab_home_style">
+
+            <ImageView
+                android:id="@+id/find_imageView"
+                style="@style/tab_image"
+                android:src="@mipmap/tab_find_n3x"/>
+
+            <TextView
+                android:id="@+id/find_text"
+                style="@style/tab_text"
+                android:text="消息"/>
+
+        </LinearLayout>
+
+        <!--这是我的的布局-->
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            >
+
+        <LinearLayout
+            android:id="@+id/linearLayout_mine"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            style="@style/tab_home_style">
+
+            <ImageView
+                android:id="@+id/mine_imageView"
+                style="@style/tab_image"
+                android:src="@mipmap/tab_use_n3x"/>
+
+            <TextView
+                android:id="@+id/mine_text"
+                style="@style/tab_text"
+                android:text="我的"/>
+
+        </LinearLayout>
+
+           <TextView
+               android:id="@+id/text_notifiction_number"
+               android:layout_width="18dp"
+               android:layout_height="18dp"
+               android:background="@drawable/shape_ovial_red"
+               android:layout_marginRight="13dp"
+               android:layout_marginTop="13dp"
+               android:visibility="invisible"
+               android:layout_alignParentRight="true"
+               android:gravity="center"
+               android:text="8"
+               android:textColor="#ffffff"
+               android:textSize="13dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#d6d2d2"
+        android:layout_above="@id/bottom_navigation"/>
+    <FrameLayout
+        android:id="@+id/mianActivity_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/view"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/text_color_green">
+
+        <FrameLayout
+            android:id="@+id/fram_job_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/btn_back2x"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/title_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="浏览记录"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:textSize="18dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_job_browse"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textjobbrowse"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="职位浏览记录"
+                android:textColor="#42bfb6"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="#aaaaaa" />
+
+        <LinearLayout
+            android:id="@+id/linear_company_browse"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textcompanybrowse"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="公司浏览记录"
+                android:textColor="#555555"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayoutLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+    <FrameLayout
+        android:id="@+id/frameLayoutRight"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

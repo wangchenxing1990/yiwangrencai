@@ -1,0 +1,4290 @@
+{
+  "code": "1",
+  "msg": "",
+  "data": [
+    {
+      "cid": 110000,
+      "name": "销售、客服、市场、公关",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 110100,
+          "name": "销售人员",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 110101,
+              "name": "销售代表",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110102,
+              "name": "电话销售",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110103,
+              "name": "客户经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110104,
+              "name": "营业员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110105,
+              "name": "职业顾问/房产经纪人",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110106,
+              "name": "医药代表",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110107,
+              "name": "渠道/分销专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110108,
+              "name": "团购业务员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110109,
+              "name": "招商专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110110,
+              "name": "销售内勤/助理",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 110200,
+          "name": "销售管理",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 110201,
+              "name": "销售总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110202,
+              "name": "销售经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110203,
+              "name": "渠道/分销",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110204,
+              "name": "团购经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110205,
+              "name": "大客户经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110206,
+              "name": "区域销售管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110207,
+              "name": "招商经理",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 110300,
+          "name": "客服/售后",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 110301,
+              "name": "客服总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110302,
+              "name": "客服经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110303,
+              "name": "客服专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110304,
+              "name": "网店客服",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110305,
+              "name": "客户关系管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110306,
+              "name": "售前/售后技术支持",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 110400,
+          "name": "市场/营销",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 110401,
+              "name": "市场营销总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110402,
+              "name": "市场营销经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110403,
+              "name": "市场营销专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110404,
+              "name": "商务专员/经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110405,
+              "name": "选址拓展/新店开发",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110406,
+              "name": "活动策划/执行",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110407,
+              "name": "企划",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110408,
+              "name": "促销员/督导",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110409,
+              "name": "网络营销/推广",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110410,
+              "name": "海外市场",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 110500,
+          "name": "公关/媒介",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 110501,
+              "name": "公关/媒介经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110502,
+              "name": "公关/媒介专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110503,
+              "name": "品牌经营",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110504,
+              "name": "广告协调",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 110505,
+              "name": "会务安排",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 120000,
+      "name": "人资、行政、财务、管理",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 120100,
+          "name": "人力资源",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 120101,
+              "name": "人力资源专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120102,
+              "name": "招聘专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120103,
+              "name": "培训专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120104,
+              "name": "薪酬福利专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120105,
+              "name": "绩效专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120106,
+              "name": "员工关系专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120107,
+              "name": "人力资源经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120108,
+              "name": "人力资源总监",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 120200,
+          "name": "行政后勤",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 120201,
+              "name": "行政专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120202,
+              "name": "文员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120203,
+              "name": "前台接待",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120204,
+              "name": "高管助理/秘书",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120205,
+              "name": "系统管理员/网管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120206,
+              "name": "保安",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120207,
+              "name": "保洁员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120208,
+              "name": "商务司机",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120209,
+              "name": "客运司机",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120210,
+              "name": "货运司机",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120211,
+              "name": "后勤",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120212,
+              "name": "行政经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120213,
+              "name": "行政总监",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 120300,
+          "name": "财务/审计/税务",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 120301,
+              "name": "财务专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120302,
+              "name": "会计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120303,
+              "name": "出纳",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120304,
+              "name": "投融资",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120305,
+              "name": "审计专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120306,
+              "name": "税务会计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120307,
+              "name": "财务统计员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120308,
+              "name": "成本会计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120309,
+              "name": "结算专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120310,
+              "name": "风控专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120311,
+              "name": "资金/资产会计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120312,
+              "name": "财务经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120313,
+              "name": "财务总监",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 120400,
+          "name": "律师/法务",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 120401,
+              "name": "律师/法律顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120402,
+              "name": "法务经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120403,
+              "name": "法务专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120404,
+              "name": "知识产权/专利顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120405,
+              "name": "合规管理",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 120500,
+          "name": "高级管理",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 120501,
+              "name": "CEO",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120502,
+              "name": "副总",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120503,
+              "name": "CTO",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120504,
+              "name": "COO",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120505,
+              "name": "CFO",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120506,
+              "name": "办事处/分公司负责人",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120507,
+              "name": "总工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120508,
+              "name": "厂长/副厂长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120509,
+              "name": "合伙人",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120510,
+              "name": "总经理助理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 120511,
+              "name": "其他(高级管理)",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 130000,
+      "name": "生产、工人、质控",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 130100,
+          "name": "生产/营运",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 130101,
+              "name": "厂长/副厂长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130102,
+              "name": "总工程师/副总工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130103,
+              "name": "车间主任",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130104,
+              "name": "项目经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130105,
+              "name": "技术工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130106,
+              "name": "营运经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130107,
+              "name": "生产计划/调度",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130108,
+              "name": "物料管理/库管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130109,
+              "name": "生产主管/领班/组长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130110,
+              "name": "工艺设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130111,
+              "name": "化验/检验",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130112,
+              "name": "生产文员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130113,
+              "name": "设备管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130114,
+              "name": "其他（生产/营运）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 130200,
+          "name": "普工/技工",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 130201,
+              "name": "普工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130202,
+              "name": "钣金工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130203,
+              "name": "机修工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130204,
+              "name": "冲压工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130205,
+              "name": "装配工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130206,
+              "name": "焊工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130207,
+              "name": "钳工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130208,
+              "name": "车工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130209,
+              "name": "磨工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130210,
+              "name": "铣工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130211,
+              "name": "切割技工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130212,
+              "name": "模具工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130213,
+              "name": "叉车工/铲车",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130214,
+              "name": "空调工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130215,
+              "name": "电梯工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130216,
+              "name": "锅炉工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130217,
+              "name": "水电工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130218,
+              "name": "木工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130219,
+              "name": "油漆工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130220,
+              "name": "注塑工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130221,
+              "name": "铸造/锻造",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130222,
+              "name": "万能工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130223,
+              "name": "其他（普工/技工）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 130300,
+          "name": "质控/安防",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 130301,
+              "name": "质量管理/测试经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130302,
+              "name": "质量检验员/测试员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130303,
+              "name": "可靠度工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130304,
+              "name": "认证体系工程师/审核员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130305,
+              "name": "供应商管理（SQE）",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130306,
+              "name": "安全消防",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130307,
+              "name": "环保",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 130308,
+              "name": "其他（质控/安防）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 140000,
+      "name": "互联网、游戏、软件",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 140100,
+          "name": "后端开发",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140101,
+              "name": "PHP",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140102,
+              "name": "Java",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140103,
+              "name": ".net",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140104,
+              "name": "C/C++",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140105,
+              "name": "C#",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140106,
+              "name": "python",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140107,
+              "name": "架构师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140108,
+              "name": "其他（后端开发）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 140200,
+          "name": "移动开发",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140201,
+              "name": "IOS",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140202,
+              "name": "android",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140203,
+              "name": "html5(移动)",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140204,
+              "name": "其他（移动开发）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 140300,
+          "name": "前端开发",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140301,
+              "name": "网页前端",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140302,
+              "name": "html5(前端)",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140303,
+              "name": "JavaScript",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140304,
+              "name": "Flash",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140305,
+              "name": "COCOS2D-X/U3D",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140306,
+              "name": "其他（前端开发）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 140400,
+          "name": "运维",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140401,
+              "name": "运维工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140402,
+              "name": "网络安全",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140403,
+              "name": "运维经理",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 140500,
+          "name": "数据库",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140501,
+              "name": "mysql",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140502,
+              "name": "SQL Server",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140503,
+              "name": "Oracle",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140504,
+              "name": "hadoop",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140505,
+              "name": "DBA",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 140600,
+          "name": "技术管理",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140601,
+              "name": "项目经理/助理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140602,
+              "name": "技术经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140603,
+              "name": "CTO",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 140700,
+          "name": "其他技术",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140701,
+              "name": "软件实施",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140702,
+              "name": "系统集成",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140703,
+              "name": "系统分析员",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 140800,
+          "name": "测试",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140801,
+              "name": "软件测试",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140802,
+              "name": "移动端测试",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140803,
+              "name": "游戏测试",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140804,
+              "name": "测试工程师",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 140900,
+          "name": "产品",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 140901,
+              "name": "网页产品经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140902,
+              "name": "移动产品经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140903,
+              "name": "电商产品经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140904,
+              "name": "软件产品经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140905,
+              "name": "游戏策划",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140906,
+              "name": "产品经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 140907,
+              "name": "产品专员/助理",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 141000,
+          "name": "设计",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 141001,
+              "name": "UI设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141002,
+              "name": "平面设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141003,
+              "name": "网页设计/美工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141004,
+              "name": "游戏设计/原画设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141005,
+              "name": "交互设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141006,
+              "name": "设计师",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 141100,
+          "name": "运营/市场",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 141101,
+              "name": "网店运营",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141102,
+              "name": "SEO/SEM",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141103,
+              "name": "网络推广",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141104,
+              "name": "文案策划",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141105,
+              "name": "编辑/内容运营",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141106,
+              "name": "新媒体运营",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141107,
+              "name": "市场策划",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141108,
+              "name": "运营/市场专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141109,
+              "name": "运营/市场经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 141110,
+              "name": "运营/市场总监",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 150000,
+      "name": "通信、硬件、电子电器",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 150100,
+          "name": "通信/网络设备",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 150101,
+              "name": "移动通信工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150102,
+              "name": "有线传输工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150103,
+              "name": "网络工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150104,
+              "name": "通信项目管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150105,
+              "name": "安装技术员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150106,
+              "name": "通信技术工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150107,
+              "name": "通信设备维修",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150108,
+              "name": "其他（通信/网络设备）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 150200,
+          "name": "电子",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 150201,
+              "name": "电源开发工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150202,
+              "name": "工艺工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150203,
+              "name": "汽车电子工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150204,
+              "name": "自动化工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150205,
+              "name": "嵌入式开发",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150206,
+              "name": "仪器/仪表/计量",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150207,
+              "name": "测试工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150208,
+              "name": "SMT工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150209,
+              "name": "电子工程师",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 150300,
+          "name": "电器",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 150301,
+              "name": "家电/数码产品研发",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150302,
+              "name": "光源和照明工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150303,
+              "name": "音响工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150404,
+              "name": "电器维修",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 150405,
+              "name": "电器工程师",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 160000,
+      "name": "汽车、机械",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 160100,
+          "name": "汽车研发/设计",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 160101,
+              "name": "电器设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160102,
+              "name": "底盘设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160103,
+              "name": "车身/造型设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160104,
+              "name": "动力系统工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160105,
+              "name": "内外饰工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160106,
+              "name": "机电工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160107,
+              "name": "涂装工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160108,
+              "name": "总布置工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160109,
+              "name": "车辆试验/测试",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160110,
+              "name": "质量工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160111,
+              "name": "其他（汽车研发/设计）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 160200,
+          "name": "汽车销售/市场",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 160201,
+              "name": "汽车销售顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160202,
+              "name": "精品销售",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160203,
+              "name": "零配件销售",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160204,
+              "name": "销售内勤",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160205,
+              "name": "销售经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160206,
+              "name": "市场营销专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160207,
+              "name": "市场营销经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160208,
+              "name": "二手车评估师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160209,
+              "name": "销售库管",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 160300,
+          "name": "汽车服务/维修",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 160301,
+              "name": "汽车美容",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160302,
+              "name": "洗车工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160303,
+              "name": "售后服务/客服",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160304,
+              "name": "售后经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160305,
+              "name": "保险理赔",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160306,
+              "name": "机电维修",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160307,
+              "name": "维修钣金工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160308,
+              "name": "维修漆工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160309,
+              "name": "其他（服务/售后/维修）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 160400,
+          "name": "机械/设备",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 160401,
+              "name": "模具设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160402,
+              "name": "机械工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160403,
+              "name": "机电工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160404,
+              "name": "CNC工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160405,
+              "name": "夹具设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160406,
+              "name": "结构工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160407,
+              "name": "绘图员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160408,
+              "name": "设备管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160409,
+              "name": "设备维修",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160410,
+              "name": "工艺工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160411,
+              "name": "工业工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160412,
+              "name": "材料工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160413,
+              "name": "技术研发",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160414,
+              "name": "技术研发经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 160415,
+              "name": "其他（机械/设备）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 170000,
+      "name": "房地产、建筑、物业、装饰",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 170100,
+          "name": "建筑设计",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 170101,
+              "name": "总建筑师/设计总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170102,
+              "name": "建筑设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170103,
+              "name": "绘图/效果图制作",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170104,
+              "name": "规划设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170105,
+              "name": "方案设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170106,
+              "name": "结构设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170107,
+              "name": "暖通设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170108,
+              "name": "排水设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170109,
+              "name": "电气设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170110,
+              "name": "幕墙设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170111,
+              "name": "施工图设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170112,
+              "name": "园林/景观设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170113,
+              "name": "其他（建筑设计）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 170200,
+          "name": "建筑工程",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 170201,
+              "name": "总工程师/工程总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170202,
+              "name": "工程经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170203,
+              "name": "建筑工程师/建造师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170204,
+              "name": "招投标",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170205,
+              "name": "配套工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170206,
+              "name": "开发报建",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170207,
+              "name": "预结算/造价",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170208,
+              "name": "土建工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170209,
+              "name": "安装工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170210,
+              "name": "路桥/市政工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170211,
+              "name": "岩土工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170212,
+              "name": "智能楼宇",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170213,
+              "name": "测绘/测量",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170214,
+              "name": "施工员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170215,
+              "name": "施工管理/工长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170216,
+              "name": "资料员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170217,
+              "name": "采购/材料",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170218,
+              "name": "安全员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170219,
+              "name": "质检员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170220,
+              "name": "监理工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170221,
+              "name": "其他（建筑工程）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 170300,
+          "name": "营销/策划/销售",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 170301,
+              "name": "营销/策划总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170302,
+              "name": "营销/策划经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170303,
+              "name": "营销/策划专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170304,
+              "name": "职业顾问/房产经纪人",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170305,
+              "name": "销售经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170306,
+              "name": "招商专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170307,
+              "name": "招商经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170308,
+              "name": "权证员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170309,
+              "name": "其他（营销/策划/销售）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 170400,
+          "name": "装饰装修",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 170401,
+              "name": "设计总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170402,
+              "name": "设计经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170403,
+              "name": "设计师/高级设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170404,
+              "name": "家装设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170405,
+              "name": "工装设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170406,
+              "name": "软装设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170407,
+              "name": "绘图员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170408,
+              "name": "家装顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170409,
+              "name": "工程/项目总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170410,
+              "name": "工程/项目经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170411,
+              "name": "工程监理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170412,
+              "name": "施工员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170413,
+              "name": "水电工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170414,
+              "name": "木工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170415,
+              "name": "泥工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170416,
+              "name": "资料员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170417,
+              "name": "材料专员/经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170418,
+              "name": "其他（装饰装修）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 170500,
+          "name": "物业",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 170501,
+              "name": "物业经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170502,
+              "name": "物管员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170503,
+              "name": "招商/租售",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170504,
+              "name": "综合维修工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170505,
+              "name": "水电维修工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170506,
+              "name": "保安经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170507,
+              "name": "保安",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170508,
+              "name": "保洁员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 170509,
+              "name": "其他（物业）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 180000,
+      "name": "金融、银行、保险",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 180100,
+          "name": "银行",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 180101,
+              "name": "行长/副行长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180102,
+              "name": "业务部门经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180103,
+              "name": "客户经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180104,
+              "name": "综合业务专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180105,
+              "name": "风险控制",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180106,
+              "name": "信审核查",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180107,
+              "name": "大堂经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180108,
+              "name": "资产评估/分析",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180109,
+              "name": "信贷管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180110,
+              "name": "银行柜员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180111,
+              "name": "信用卡销售",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180112,
+              "name": "其他（银行）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 180200,
+          "name": "金融/证券/投资",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 180201,
+              "name": "投融资专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180202,
+              "name": "投融资经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180203,
+              "name": "证券分析师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180204,
+              "name": "金融产品经纪人",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180205,
+              "name": "投资银行业务",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180206,
+              "name": "金融操盘手",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180207,
+              "name": "金融研究员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180208,
+              "name": "投资/基金项目经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180209,
+              "name": "投资顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180210,
+              "name": "风控专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180211,
+              "name": "其他（金融/证券/投资",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 180300,
+          "name": "保险",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 180301,
+              "name": "保险经纪人/客户经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180302,
+              "name": "理财顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180303,
+              "name": "保险业务经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180304,
+              "name": "保险理赔",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180305,
+              "name": "车险专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180306,
+              "name": "客户服务/续期管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180307,
+              "name": "保险培训师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180308,
+              "name": "保险内勤",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 180309,
+              "name": "其他（保险）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 190000,
+      "name": "广告、设计、传媒",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 190100,
+          "name": "广告",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 190101,
+              "name": "广告客户总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190102,
+              "name": "广告销售经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190103,
+              "name": "广告客户专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190104,
+              "name": "广告创意总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190105,
+              "name": "广告创意/设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190106,
+              "name": "美术指导",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190107,
+              "name": "文案策划",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190108,
+              "name": "广告执行/制作/安装",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190109,
+              "name": "会务/会展",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190110,
+              "name": "其他（广告）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 190200,
+          "name": "设计",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 190201,
+              "name": "平面设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190202,
+              "name": "动画/3D设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190203,
+              "name": "网页设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190204,
+              "name": "UI设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190205,
+              "name": "美工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190206,
+              "name": "装修设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190207,
+              "name": "家具设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190208,
+              "name": "原画师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190209,
+              "name": "家居用品设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190210,
+              "name": "服装设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190211,
+              "name": "建筑设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190212,
+              "name": "工艺品/珠宝设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190213,
+              "name": "工业设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190214,
+              "name": "店面/展览设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190215,
+              "name": "设计经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190216,
+              "name": "设计总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190217,
+              "name": "其他（设计）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 190300,
+          "name": "影视/媒体",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 190301,
+              "name": "编导/导演",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190302,
+              "name": "主持人",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190303,
+              "name": "演员/模特",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190304,
+              "name": "摄像/摄影）",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190305,
+              "name": "化妆师/造型师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190306,
+              "name": "影视策划",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190307,
+              "name": "后期制作",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190308,
+              "name": "经纪人",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190309,
+              "name": "其他（影视/媒体）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 190400,
+          "name": "写作/出版/印刷",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 190401,
+              "name": "编辑",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190402,
+              "name": "美术编辑",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190403,
+              "name": "记者",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190404,
+              "name": "校对/录入",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190405,
+              "name": "排版设计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190406,
+              "name": "制版/印刷操作",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 190407,
+              "name": "其他（写作/出版/印刷）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 200000,
+      "name": "餐饮、百货、生活服务",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 200100,
+          "name": "餐饮/娱乐",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 200101,
+              "name": "餐饮/娱乐管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200102,
+              "name": "大堂经理/领班",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200103,
+              "name": "厨师长/行政总厨",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200104,
+              "name": "厨师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200105,
+              "name": "打荷/杂工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200106,
+              "name": "切菜/配菜",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200107,
+              "name": "送餐员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200108,
+              "name": "面点师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200109,
+              "name": "咖啡师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200110,
+              "name": "服务员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200111,
+              "name": "传菜员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200112,
+              "name": "迎宾/接待",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200113,
+              "name": "调酒师/吧台员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200114,
+              "name": "茶艺师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200115,
+              "name": "学徒",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200116,
+              "name": "洗碗工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200117,
+              "name": "收银员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200118,
+              "name": "其他（餐饮/娱乐）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 200200,
+          "name": "酒店/旅游",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 200201,
+              "name": "酒店管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200202,
+              "name": "大堂经理/领班",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200203,
+              "name": "酒店销售",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200204,
+              "name": "前台接待",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200205,
+              "name": "预定员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200206,
+              "name": "服务员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200207,
+              "name": "行李员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200208,
+              "name": "保安",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200209,
+              "name": "保洁员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200210,
+              "name": "旅游销售",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200211,
+              "name": "旅游计调",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200212,
+              "name": "导游",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200213,
+              "name": "其他（酒店/旅游）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 200300,
+          "name": "美容/健身/运动",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 200301,
+              "name": "美容师/化妆师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200302,
+              "name": "美容顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200303,
+              "name": "美甲师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200304,
+              "name": "发型师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200305,
+              "name": "宠物美容",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200306,
+              "name": "按摩/足疗",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200307,
+              "name": "健身顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200308,
+              "name": "健身教练",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200309,
+              "name": "体育运动教练",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200310,
+              "name": "瑜伽老师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200311,
+              "name": "舞蹈老师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200312,
+              "name": "其他（美容/美发/按摩）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 200400,
+          "name": "保安/家政",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 200401,
+              "name": "保安经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200402,
+              "name": "保安",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200403,
+              "name": "搬运工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200404,
+              "name": "保洁员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200405,
+              "name": "保姆/护工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200406,
+              "name": "月嫂",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200407,
+              "name": "钟点工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200408,
+              "name": "其他（保安/家政）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 200500,
+          "name": "百货/零售",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 200501,
+              "name": "店长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200502,
+              "name": "卖场经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200503,
+              "name": "品类经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200504,
+              "name": "营业员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200505,
+              "name": "导购员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200506,
+              "name": "防损员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200507,
+              "name": "收银员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200508,
+              "name": "收货员/理货员/陈列员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200509,
+              "name": "食品加工/处理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200510,
+              "name": "招商人员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200511,
+              "name": "督导",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 200512,
+              "name": "其他（百货/零售）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 210000,
+      "name": "医疗、医药",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 210100,
+          "name": "医药",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 210101,
+              "name": "医药研发",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210102,
+              "name": "生物工程/生物制药",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210103,
+              "name": "化学分析员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210104,
+              "name": "药品临床实验",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210105,
+              "name": "药品生产",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210106,
+              "name": "药品质量管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210107,
+              "name": "医药招商",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210108,
+              "name": "药品市场推广",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210109,
+              "name": "医药代表",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210110,
+              "name": "医药销售经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210111,
+              "name": "药店店长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210112,
+              "name": "药店营业员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210113,
+              "name": "其他（医药）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 210200,
+          "name": "医疗器械",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 210201,
+              "name": "医疗器械研发",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210202,
+              "name": "医疗器械临床实验",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210203,
+              "name": "医疗设备生产/质量管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210204,
+              "name": "医疗器械市场推广",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210205,
+              "name": "医疗器械销售",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210206,
+              "name": "医疗器械维修/售后",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210207,
+              "name": "其他（医疗器械）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 210300,
+          "name": "医生/技师",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 210301,
+              "name": "内科医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210302,
+              "name": "外科医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210303,
+              "name": "麻醉医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210304,
+              "name": "妇产科医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210305,
+              "name": "五官科医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210306,
+              "name": "儿科医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210307,
+              "name": "中医医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210308,
+              "name": "放射科医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210309,
+              "name": "B超医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210310,
+              "name": "整形/美容",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210311,
+              "name": "专科医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210312,
+              "name": "综合门诊/全科医生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210313,
+              "name": "针灸/推拿",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210314,
+              "name": "理疗师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210315,
+              "name": "检验/化验",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210316,
+              "name": "药剂师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210317,
+              "name": "其他（医生）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 210400,
+          "name": "医院管理/护理",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 210401,
+              "name": "医院管理人员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210402,
+              "name": "护士长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210403,
+              "name": "护士",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210404,
+              "name": "医助",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210405,
+              "name": "导医",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 210406,
+              "name": "其他（医院管理/护理）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 220000,
+      "name": "教育、培训、专业服务",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 220100,
+          "name": "销售/市场",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 220101,
+              "name": "咨询总监",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220102,
+              "name": "咨询经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220103,
+              "name": "专业顾问/咨询",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220104,
+              "name": "招生顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220105,
+              "name": "课程顾问",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220106,
+              "name": "调研员/市场专员",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 220200,
+          "name": "教师/教务",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 220201,
+              "name": "校长/园长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220202,
+              "name": "教务管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220203,
+              "name": "教务人员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220204,
+              "name": "班主任/辅导员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220205,
+              "name": "中学教师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220206,
+              "name": "小学教师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220207,
+              "name": "幼教/早教",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220208,
+              "name": "职业技术教师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220209,
+              "name": "家教",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220210,
+              "name": "兼职教师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220211,
+              "name": "英语教师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220212,
+              "name": "音乐教师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220213,
+              "name": "美术教师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220214,
+              "name": "舞蹈教师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220215,
+              "name": "体育老师/教练",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220216,
+              "name": "其他（教师）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 220300,
+          "name": "培训",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 220301,
+              "name": "培训讲师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220302,
+              "name": "培训助理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220303,
+              "name": "学习管理师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220304,
+              "name": "培训经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220305,
+              "name": "其他（培训）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 220400,
+          "name": "其他专业服务",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 220401,
+              "name": "外语翻译",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220402,
+              "name": "猎头/人才中介",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220403,
+              "name": "律师/法务咨询",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220404,
+              "name": "财务/会计",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220405,
+              "name": "心理咨询师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 220406,
+              "name": "企业管理咨询师",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 230000,
+      "name": "能源、化工、服装、环保",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 230100,
+          "name": "能源/电力/矿产",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 230101,
+              "name": "电力/电气工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230102,
+              "name": "电气维修技术员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230103,
+              "name": "水利/水电工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230104,
+              "name": "制冷/暖通工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230105,
+              "name": "石油/天然气/煤炭技术人员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230106,
+              "name": "新能源工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230107,
+              "name": "其他（能源/电力/矿产）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 230200,
+          "name": "化工",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 230201,
+              "name": "化工工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230202,
+              "name": "化工实验室研究员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230203,
+              "name": "涂料研发工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230204,
+              "name": "食品/饮料研发",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230205,
+              "name": "安全工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230206,
+              "name": "其他（化工）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 230300,
+          "name": "服装/纺织",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 230301,
+              "name": "服装设计师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230302,
+              "name": "工艺师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230303,
+              "name": "打样/制版",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230304,
+              "name": "电脑放码员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230305,
+              "name": "质量管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230306,
+              "name": "裁床",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230307,
+              "name": "缝纫工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230308,
+              "name": "其他（服装/纺织）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 230400,
+          "name": "环保",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 230401,
+              "name": "环保工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230402,
+              "name": "污水处理工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230403,
+              "name": "环评工程师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 230404,
+              "name": "其他（环保）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 240000,
+      "name": "进出口、采购、物流、司机",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 240100,
+          "name": "进出口",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 240101,
+              "name": "外贸经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240102,
+              "name": "外贸业务员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240103,
+              "name": "跟单员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240104,
+              "name": "单证员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240105,
+              "name": "报关/报检员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240106,
+              "name": "其他（进出口）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 240200,
+          "name": "采购",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 240201,
+              "name": "采购经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240202,
+              "name": "采购员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240203,
+              "name": "买手",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240204,
+              "name": "供应商",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240205,
+              "name": "开发其他（采购）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 240300,
+          "name": "物流/仓储",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 240301,
+              "name": "物流经理/主管",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240302,
+              "name": "物流专员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240303,
+              "name": "快递员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240304,
+              "name": "配货员/分拣员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240305,
+              "name": "供应链管理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240306,
+              "name": "调度员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240307,
+              "name": "货运代理业务",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240308,
+              "name": "仓库主管/经理",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240309,
+              "name": "仓库管理员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240310,
+              "name": "搬运工",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240311,
+              "name": "其他（物流/仓储）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 240400,
+          "name": "司机",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 240401,
+              "name": "商务司机",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240402,
+              "name": "客运司机",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240403,
+              "name": "货运司机",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240404,
+              "name": "出租车司机",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240405,
+              "name": "特种车司机",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240406,
+              "name": "驾校教练/陪练",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 240407,
+              "name": "代驾",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": 250000,
+      "name": "农林牧渔、实习生、其他",
+      "grade": 1,
+      "next": 1,
+      "nexts": [
+        {
+          "cid": 250100,
+          "name": "农林牧渔",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 250101,
+              "name": "场长",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 250102,
+              "name": "农艺师",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 250103,
+              "name": "饲养员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 250104,
+              "name": "兽医",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 250105,
+              "name": "其他（农林牧渔）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        },
+        {
+          "cid": 250200,
+          "name": "其他",
+          "grade": 2,
+          "next": 1,
+          "nexts": [
+            {
+              "cid": 250201,
+              "name": "科研人员",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 250202,
+              "name": "储备干部",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 250203,
+              "name": "兼职",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 250204,
+              "name": "实习生",
+              "grade": 3,
+              "next": 0
+            },
+            {
+              "cid": 250205,
+              "name": "其他（其他职位）",
+              "grade": 3,
+              "next": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_popuwind"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        style="@style/public_title">
+
+        <FrameLayout
+            android:id="@+id/iv_back_basic"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_selector"
+            android:clickable="true">
+        <ImageView
+            android:layout_gravity="center"
+            style="@style/public_image_back" />
+        </FrameLayout>
+        <TextView
+            style="@style/public_text_middle"
+            android:text="基本信息" />
+
+        <TextView
+            android:id="@+id/tv_next_basic"
+            style="@style/public_text_next"
+            android:text="下一步" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="#f0f0f0"
+                android:orientation="horizontal"
+                android:paddingTop="7dp">
+
+                <LinearLayout style="@style/resume_editor_four_layout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:id="@+id/tv_one_number"
+                            style="@style/resume_progress_text"
+                            android:background="@drawable/shape_base_circle_green"
+                            android:text="1" />
+
+                        <View
+                            style="@style/editor_resume_text"
+                            android:layout_toRightOf="@id/tv_one_number"
+                            android:background="#42bfb6" />
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/base_information_edit_progress"
+                        android:text="基本资料"
+                        android:textColor="@color/text_color_green" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/resume_editor_four_layout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <View style="@style/editor_resume_text" />
+
+                        <TextView
+                            android:id="@+id/tv_two_number"
+                            style="@style/resume_progress_text"
+                            android:background="@drawable/shape_base_circle"
+                            android:text="2" />
+
+                        <View
+                            style="@style/editor_resume_text"
+                            android:layout_toRightOf="@id/tv_two_number" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/base_information_edit_progress"
+                        android:text="求职意向" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/resume_editor_four_layout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <View style="@style/editor_resume_text" />
+
+                        <TextView
+                            android:id="@+id/tv_three_number"
+                            style="@style/resume_progress_text"
+                            android:background="@drawable/shape_base_circle"
+                            android:text="3" />
+
+                        <View
+                            style="@style/editor_resume_text"
+                            android:layout_toRightOf="@id/tv_three_number" />
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/base_information_edit_progress"
+                        android:text="教育背景" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/resume_editor_four_layout">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp">
+
+                        <TextView
+                            android:id="@+id/tv_four_number"
+                            style="@style/resume_progress_text"
+                            android:background="@drawable/shape_base_circle"
+                            android:text="4" />
+
+                        <View
+                            style="@style/editor_resume_text"
+                            android:layout_toLeftOf="@id/tv_four_number" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        style="@style/base_information_edit_progress"
+                        android:text="工作经历" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_name"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_name"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="姓名" />
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_toRightOf="@id/text_name"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_basic"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_input_name"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_basic"
+                    android:textColor="@color/text_color_b"
+                    android:text="请输入姓名" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+            <!-- 性别-->
+            <RelativeLayout
+                android:id="@+id/rl_sex"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_sex"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="性别" />
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_toRightOf="@id/text_sex"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_sex"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_sex_input"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text_color_b"
+                    android:layout_toLeftOf="@id/icon_image_next_sex"
+                    android:text="男" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+            <!-- 生日 -->
+            <RelativeLayout
+                android:id="@+id/rl_birthday"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_birthday"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="生日" />
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_toRightOf="@id/text_birthday"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_birthday"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_select_birthday"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text_color_b"
+                    android:layout_toLeftOf="@id/icon_image_next_birthday"
+                    android:text="请选择生日" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+            <!--学历-->
+            <RelativeLayout
+                android:id="@+id/rl_education"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_education"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="学历" />
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_toRightOf="@id/text_education"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_education"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_input_education"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text_color_b"
+                    android:layout_toLeftOf="@id/icon_image_next_education"
+                    android:text="请选择学历" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+            <RelativeLayout
+                android:id="@+id/rl_work_suffer"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_work"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="相关工作经验" />
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_toRightOf="@id/text_work"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_work"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_input_work_suffer"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text_color_b"
+                    android:layout_toLeftOf="@id/icon_image_next_work"
+                    android:text="请选择工作经验" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+            <RelativeLayout
+                android:id="@+id/rl_location"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_address"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="现居住地" />
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_toRightOf="@id/text_address"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_location"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_select_location"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text_color_b"
+                    android:layout_toLeftOf="@id/icon_image_next_location"
+                    android:text="请选择现居住地" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+            <RelativeLayout
+                android:id="@+id/rl_work_state"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_state"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="求职状态" />
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_toRightOf="@id/text_state"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_static"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_work_state_basic"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_static"
+                    android:textColor="@color/text_color_b"
+                    android:text="不在职,正在找工作" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+            <RelativeLayout
+                android:id="@+id/rl_phone_number"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_phone_number"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="手机号码" />
+
+                <TextView
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="*"
+                    android:textSize="13sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_toRightOf="@id/text_phone_number"/>
+
+                <ImageView
+                    android:id="@+id/icon_image_next_phone"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_input_phone"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_phone"
+                    android:textColor="@color/text_color_b"
+                    android:text="请输入手机号码" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+            <RelativeLayout
+                android:id="@+id/rl_email"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    android:id="@+id/text_email"
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="邮箱" />
+
+
+                <ImageView
+                    android:id="@+id/icon_image_next_email"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_input_email"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_email"
+                    android:textColor="@color/text_color_b"
+                    android:text="请输入邮箱" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_line_background" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_qq"
+                style="@style/relation_editor_resume">
+
+                <TextView
+                    style="@style/base_item_iformation"
+                    android:layout_marginLeft="10dp"
+                    android:text="qq" />
+
+                <ImageView
+                    android:id="@+id/icon_image_next_qq"
+                    style="@style/base_iamge_item_information" />
+
+                <TextView
+                    android:id="@+id/tv_input_qq"
+                    style="@style/base_item_iformation"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@id/icon_image_next_qq"
+                    android:textColor="@color/text_color_b"
+                    android:text="请输入qq" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

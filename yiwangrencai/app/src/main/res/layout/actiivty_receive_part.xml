@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:id="@+id/ll_popuwind"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/text_color_green">
+
+        <FrameLayout
+            android:id="@+id/fram_job_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/btn_back2x"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/title_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收到的兼职邀请"
+            android:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:textSize="18dp"/>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

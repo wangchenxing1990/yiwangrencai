@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+
+    <RelativeLayout
+
+        style="@style/public_title">
+
+        <FrameLayout
+            android:id="@+id/iv_back_basic"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_selector"
+            android:clickable="true">
+
+            <ImageView
+                android:layout_gravity="center"
+                style="@style/public_image_back" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_tiltless"
+            style="@style/public_text_middle"
+            android:text="高级搜索" />
+
+    </RelativeLayout>
+
+   <RelativeLayout
+       android:id="@+id/searchInputWork"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:clickable="true"
+       android:background="@drawable/background_selector_editor">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="职位"
+           android:layout_marginLeft="10dp"
+           android:gravity="center"
+           android:textColor="#555555"
+           android:textSize="16dp"/>
+
+       <ImageView
+           android:id="@+id/imageview"
+           android:layout_width="15dp"
+           android:layout_height="15dp"
+           android:src="@mipmap/icon_next"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="10dp"
+           android:layout_centerVertical="true"/>
+
+       <TextView
+           android:id="@+id/textViewWork"
+           android:layout_toLeftOf="@id/imageview"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:textColor="#898989"
+           android:ellipsize="end"
+           android:maxEms="13"
+           android:maxLines="1"
+           android:layout_marginRight="5dp"
+           android:textSize="16dp"
+           android:gravity="center"
+           android:text="请输入职位"/>
+
+   </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background"/>
+
+    <RelativeLayout
+        android:id="@+id/searchSelectIndustry"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/background_selector_editor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="行业"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#555555"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageview1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/icon_next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/textindustry"
+            android:layout_toLeftOf="@id/imageview1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#898989"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:maxEms="13"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:text="请选择行业"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background"/>
+
+
+    <RelativeLayout
+        android:id="@+id/searchSelectArea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/background_selector_editor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="地区"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#555555"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageview2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/icon_next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/textArea"
+            android:layout_toLeftOf="@id/imageview2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#898989"
+            android:layout_marginRight="5dp"
+            android:ellipsize="end"
+            android:maxEms="13"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:text="请选择地区"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="薪资范围"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#555555"
+            android:textSize="16dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_price_betwon">
+
+       <EditText
+           android:id="@+id/edit_left"
+           android:layout_width="80dp"
+           android:layout_height="match_parent"
+           android:gravity="center"
+           android:maxLines="1"
+           android:textCursorDrawable="@drawable/edit_cursor"
+           android:inputType="number"
+           android:maxLength="6"
+           android:background="@null"
+           android:layout_gravity="center"
+           />
+
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="至"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#555555"
+            android:textSize="16dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_price_betwon">
+        <EditText
+            android:id="@+id/edit_right"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:maxLines="1"
+            android:inputType="number"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:maxLength="6"
+            android:background="@null"
+            android:layout_gravity="center"
+            />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="元"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#555555"
+            android:textSize="16dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background"/>
+
+    <RelativeLayout
+        android:id="@+id/searchSelectTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/background_selector_editor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="发布时间"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#555555"
+            android:textSize="16dp"/>
+
+        <ImageView
+            android:id="@+id/imageview3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@mipmap/icon_next"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/textissuetime"
+            android:layout_toLeftOf="@id/imageview3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#898989"
+            android:layout_marginRight="5dp"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:text="请选择发布时间"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/textviewsearchhigh"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="搜索"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/shape_background_green_solid"/>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeWorkArea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="#eeeeee"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/free_time"
+            android:textColor="#555555"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/textSelectArea"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/imageview"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxEms="13"
+            android:maxLines="1"
+            android:text="@string/please_free_time"
+            android:textColor="#aaaaaa"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/text_sure_free"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:text="确定"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/shape_background_green_solid"/>
+</LinearLayout>

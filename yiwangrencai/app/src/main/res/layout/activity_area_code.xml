@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/public_title">
+        <FrameLayout
+            android:id="@+id/iv_back_location"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_selector"
+            android:clickable="true">
+            <ImageView
+                android:id="@+id/iv_county_next"
+                android:layout_gravity="center"
+                style="@style/public_image_back" />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tv_province"
+            style="@style/public_text_middle"
+            android:text="工作岗位" />
+        <TextView
+            android:id="@+id/text_save"
+            style="@style/public_text_middle"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="保存" />
+    </RelativeLayout>
+
+    <co.lujun.androidtagview.TagContainerLayout
+        android:id="@+id/textSelectWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:padding="10dp"
+        app:container_enable_drag="false"
+        app:horizontal_interval="10dp"
+        app:tag_clickable="true"
+        app:tag_theme="pure_teal"
+        app:vertical_interval="10dp"
+        app:container_background_color="#ffffff"
+        app:container_border_radius="0dp"
+        app:tag_corner_radius="5dp"
+        app:tag_text_size="13sp"
+        app:tag_enable_cross="true"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:background="@color/off_btn_noraml"/>
+
+</LinearLayout>

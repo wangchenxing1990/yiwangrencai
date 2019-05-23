@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/system_setting_popuwind"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/text_color_green">
+
+        <FrameLayout
+            android:id="@+id/fram_job_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/btn_back2x" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/title_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="系统设置"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <!--<FrameLayout-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentRight="true"-->
+
+        <!--&gt;-->
+        <!--<TextView-->
+        <!--android:id="@+id/tv_add_save"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="保存"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="15dp"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="18dp"/>-->
+        <!--</FrameLayout>-->
+
+    </RelativeLayout>
+
+    <!--系统设置-->
+    <RelativeLayout
+        android:id="@+id/rl_mine_system_setting"
+        style="@style/mine_fragment_item"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/image_system_se"
+            style="@style/mine_item_image_left"
+            android:src="@mipmap/cell_password2x" />
+
+        <TextView
+            style="@style/mine_item_text"
+            android:layout_toRightOf="@id/image_system_se"
+            android:text="修改密码" />
+
+        <ImageView
+            style="@style/mine_item_image_right"
+            android:src="@mipmap/icon_next" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+    <!--系统设置-->
+    <RelativeLayout
+        android:id="@+id/rl_mine_system_settin"
+        style="@style/mine_fragment_item">
+
+        <ImageView
+            android:id="@+id/image_system_set"
+            style="@style/mine_item_image_left"
+            android:src="@mipmap/cell_brush2x" />
+
+        <TextView
+            style="@style/mine_item_text"
+            android:layout_toRightOf="@id/image_system_set"
+            android:text="缓存清理" />
+
+        <ImageView
+            android:id="@+id/imageviewbrush"
+            style="@style/mine_item_image_right"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/textviewcache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9dp"
+            android:layout_toLeftOf="@id/imageviewbrush"
+            android:text="1.6 M" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+    <!--系统设置-->
+    <RelativeLayout
+        android:id="@+id/rl_mine_system_settingg"
+        style="@style/mine_fragment_item">
+
+        <ImageView
+            android:id="@+id/image_system_sett"
+            style="@style/mine_item_image_left"
+            android:src="@mipmap/cell_warn2x" />
+
+        <TextView
+            style="@style/mine_item_text"
+            android:layout_toRightOf="@id/image_system_sett"
+            android:text="关于我们" />
+
+        <ImageView
+            style="@style/mine_item_image_right"
+            android:src="@mipmap/icon_next" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+    <!--系统设置-->
+    <RelativeLayout
+        android:id="@+id/relative_current_verson"
+        style="@style/mine_fragment_item">
+
+        <ImageView
+            android:id="@+id/image_system_set_current"
+            style="@style/mine_item_image_left"
+            android:src="@mipmap/cell_warn2x" />
+
+        <TextView
+            style="@style/mine_item_text"
+            android:layout_toRightOf="@id/image_system_set_current"
+            android:text="当前版本" />
+
+        <ImageView
+            android:id="@+id/current_right"
+            style="@style/mine_item_image_right"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/text_current_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9dp"
+            android:layout_toLeftOf="@id/current_right"
+            android:text="1.6 M" />
+
+    </RelativeLayout>
+    <!--退出登录-->
+    <Button
+        android:id="@+id/button_login_off"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/login_off_red"
+        android:gravity="center"
+        android:text="退出登录"
+        android:textColor="@color/btn_select_color"
+        android:textSize="18dp" />
+
+</LinearLayout>

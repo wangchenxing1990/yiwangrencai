@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:imagecontrol="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/foot_text_color_green"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.yiwangrencai.ywkj.view.RoundImageView
+                android:id="@+id/imageviewresume"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                imagecontrol:border_inside_color="#fff7f2e9"
+                imagecontrol:border_outside_color="#ffd5d1c8"
+                imagecontrol:border_thickness="2dp"
+                android:src="@mipmap/avatar_m2x" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="用户名"
+                android:textColor="#f0f0f0"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="完善度:"
+                    android:textColor="#f0f0f0"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/textdegree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="100%"
+                    android:textColor="#f0f0f0"
+                    android:textSize="18dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="8dp"
+                    android:progressDrawable="@drawable/shape_progress"
+                    android:max="100"
+                    android:progress="0"
+                    android:maxHeight="5dp"
+                    android:minHeight="5dp"
+                    android:layout_toLeftOf="@id/textdegree" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="电    话:"
+                    android:textColor="#f0f0f0"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/tv_user_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="15239396178"
+                    android:textColor="#f0f0f0"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#f0f0f0"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+        <!--编辑简历-->
+        <RelativeLayout
+            android:id="@+id/rl_edit_resume"
+            style="@style/resume_fragment_user_success">
+            <ImageView
+                android:id="@+id/image_edit_resume"
+                style="@style/mine_item_image_left"
+                android:src="@mipmap/cell_edit2x"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp" />
+            <TextView
+                style="@style/mine_item_text"
+                android:layout_toRightOf="@id/image_edit_resume"
+                android:text="编辑简历" />
+
+            <ImageView
+
+                style="@style/mine_item_image_right"
+                android:src="@mipmap/icon_next" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1sp"
+            android:background="@color/view_line"
+            android:layout_marginLeft="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_preview_resume"
+            style="@style/resume_fragment_user_success">
+
+            <ImageView
+                android:id="@+id/image_review_resume"
+                style="@style/mine_item_image_left"
+                android:src="@mipmap/cell_eye2x" />
+
+            <TextView
+                style="@style/mine_item_text"
+                android:layout_toRightOf="@id/image_review_resume"
+                android:text="预览简历" />
+
+            <ImageView
+                style="@style/mine_item_image_right"
+                android:src="@mipmap/icon_next" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1sp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/view_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_open_resume"
+            style="@style/resume_fragment_user_success">
+
+            <ImageView
+                android:id="@+id/image_open_resume"
+                style="@style/mine_item_image_left"
+                android:src="@mipmap/cell_stop2x" />
+
+            <TextView
+                style="@style/mine_item_text"
+                android:layout_toRightOf="@id/image_open_resume"
+                android:text="公开/隐藏简历" />
+
+            <ImageView
+                android:id="@+id/iamge_next_open"
+                style="@style/mine_item_image_right"
+                android:src="@mipmap/icon_next" />
+
+            <TextView
+                android:id="@+id/textresume_status"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@id/iamge_next_open"
+                android:gravity="center_vertical"
+                android:text="完全公开"
+                android:textColor="#A0A0A0"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1sp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/view_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_company_blacklist"
+            style="@style/resume_fragment_user_success">
+
+            <ImageView
+                android:id="@+id/image_company_blacklist"
+                style="@style/mine_item_image_left"
+                android:src="@mipmap/cell_close2x" />
+
+            <TextView
+                style="@style/mine_item_text"
+                android:layout_toRightOf="@id/image_company_blacklist"
+                android:text="公司黑名单" />
+
+            <ImageView
+                style="@style/mine_item_image_right"
+                android:src="@mipmap/icon_next" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1sp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/view_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_part_time_job"
+            style="@style/resume_fragment_user_success">
+
+            <ImageView
+                android:id="@+id/image_company_blacklists"
+                style="@style/mine_item_image_left"
+                android:src="@mipmap/edit_depart" />
+            <TextView
+                style="@style/mine_item_text"
+                android:layout_toRightOf="@id/image_company_blacklists"
+                android:text="编辑兼职简历" />
+
+            <ImageView
+                style="@style/mine_item_image_right"
+                android:src="@mipmap/icon_next" />
+
+        </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

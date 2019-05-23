@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/text_color_green">
+
+        <FrameLayout
+            android:id="@+id/fram_job_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/btn_back2x" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/title_skill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="更多筛选"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <FrameLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+
+            >
+
+            <TextView
+                android:id="@+id/tv_add_save"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:text="保存"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+        </FrameLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeJob"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/background_selector_editor"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:clickable="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="行业"
+            android:textColor="#555555"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/textindustry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxEms="13"
+            android:textColor="#777777"
+            android:layout_toLeftOf="@id/imageview"
+            android:text="请选择行业" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+
+    <RelativeLayout
+        android:id="@+id/relativeScancle"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/background_selector_editor"
+        android:clickable="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="公司规模"
+            android:textColor="#555555"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageviewscanle"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/textcompanyscanle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="15dp"
+            android:layout_marginRight="8dp"
+            android:textColor="#777777"
+            android:layout_toLeftOf="@id/imageviewscanle"
+            android:text="选择人数" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+
+    <RelativeLayout
+        android:id="@+id/relativeindustry"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/background_selector_editor"
+        android:clickable="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="公司性质"
+            android:textColor="#555555"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageviewindustry"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/textnatrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textSize="15dp"
+            android:textColor="#777777"
+            android:layout_toLeftOf="@id/imageviewindustry"
+            android:text="请选择公司性质" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+
+    <RelativeLayout
+        android:id="@+id/relativeExp"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/background_selector_editor"
+        android:clickable="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="工作经验"
+            android:textColor="#555555"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageviewexp"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/texttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textSize="15dp"
+            android:textColor="#777777"
+            android:layout_toLeftOf="@id/imageviewexp"
+            android:text="请选择工作经验" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+
+    <RelativeLayout
+        android:id="@+id/relativeTime"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/background_selector_editor"
+        android:clickable="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="发布时间"
+            android:textColor="#555555"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageviewtime"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/icon_next" />
+
+        <TextView
+            android:id="@+id/textissuetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textSize="15dp"
+            android:textColor="#777777"
+            android:layout_toLeftOf="@id/imageviewtime"
+            android:text="请选择发布时间" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background" />
+
+    <TextView
+        android:id="@+id/textmoresure"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_background_green_solid"
+        android:gravity="center"
+        android:text="确定"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</LinearLayout>

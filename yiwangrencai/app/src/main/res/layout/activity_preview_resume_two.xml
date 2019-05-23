@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/text_color_green">
+
+        <FrameLayout
+            android:id="@+id/fram_decribe_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/btn_back2x" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="预览简历"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_title">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.yiwangrencai.ywkj.view.RatioView
+                android:layout_width="match_parent"
+                android:layout_height="200px" />
+
+            <ImageView
+                android:id="@+id/imagepreviewresume"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120px"
+                android:src="@mipmap/avatar_m2x" />
+
+            <TextView
+                android:id="@+id/textname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imagepreviewresume"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="姓名"
+                android:textColor="@color/home_text_color"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textworkexp"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/textname"
+                android:layout_centerInParent="true"
+                android:text="高中|1年以上|不在职,正在找工作" />
+
+            <View
+                android:id="@+id/view_height"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/textworkexp"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+
+            <View
+                android:id="@+id/view_basic_line"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_basic_message"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_basic_line"
+                android:text="基本信息" />
+
+            <View
+                android:id="@+id/view_line_1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_basic_message"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+            <TextView
+                android:id="@+id/text_sex"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_line_1"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="性        别"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_sex_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_line_1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_sex"
+                android:text="女"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_birthday"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_sex_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="出生日期"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_birthday_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_sex_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="1974-01-01"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_education"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_birthday_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="最高学历"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_education_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_birthday_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="高中"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_marriage_state"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_education_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="婚姻状况"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_marriage_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_education_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="未婚"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_address"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_marriage_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="户籍地址"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_address_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_marriage_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="浙江台州三门县"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_bady_height"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_address_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="身        高"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_bady_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_address_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="110cm"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_place_abode"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_bady_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="居  住  地"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_place_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_bady_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="110cm"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_detail_address"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_place_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="详细地址"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_detail_address_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_place_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="台州市椒江区葭芷街道99号"
+                android:textColor="@color/color_text_thre" />
+
+            <View
+                android:id="@+id/view_height_1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/text_detail_address_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+            <View
+                android:id="@+id/view_work_want"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_work_want"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_basic_line"
+                android:text="求职意向" />
+
+            <View
+                android:id="@+id/view_line_2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_work_want"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+            <TextView
+                android:id="@+id/text_want_job"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_line_2"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="意向岗位"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_want_job_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_line_2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="销售"
+                android:textColor="@color/color_text_thre" />
+
+
+            <TextView
+                android:id="@+id/text_work_address"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_want_job_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="工作地区"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_work_address_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_want_job_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="临海市"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_work_category"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_work_address_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="工作类别"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_work_category_content"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_work_address_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="电子"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_salary_want"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_work_category_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="期望薪资"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_salary"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_work_category_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="面议"
+                android:textColor="@color/color_text_thre" />
+
+            <View
+                android:id="@+id/view_height_2"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/text_salary"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+            <View
+                android:id="@+id/view_line_3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/view_height_2"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+            <View
+                android:id="@+id/view_contact_information"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_line_3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_connect"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_line_3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/view_contact_information"
+                android:text="联系方式" />
+
+
+            <TextView
+                android:id="@+id/text_phone_number"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_connect"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="手机号码"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_phone_numbers"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_connect"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="18317770484"
+                android:textColor="@color/color_text_thre" />
+
+            <TextView
+                android:id="@+id/text_emeal"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_phone_numbers"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="10dp"
+                android:text="电子邮箱"
+                android:textColor="@color/color_text" />
+
+            <TextView
+                android:id="@+id/text_emeals"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/text_phone_numbers"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/text_birthday"
+                android:text="18317770484@163.com"
+                android:textColor="@color/color_text_thre" />
+
+            <View
+                android:id="@+id/view_height_3"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/text_emeals"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+            <View
+                android:id="@+id/view_line_4"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_seft"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_line_4"
+                android:text="自我评价" />
+
+            <View
+                android:id="@+id/view_height_5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_seft"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+            <TextView
+                android:id="@+id/text_self_evaluate"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_5"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="16sp"
+                android:textColor="@color/color_text_thre"
+                android:text="讲原则,懂礼貌" />
+
+
+
+            <View
+                android:id="@+id/view_height_9"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/text_self_evaluate"
+                android:background="@color/view_line_f3" />
+
+
+            <View
+                android:id="@+id/view_work_exp"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_9"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_work_exp"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_9"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_work_exp"
+                android:text="工作经验" />
+
+            <View
+                android:id="@+id/view_line_9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_work_exp"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+
+            <com.yiwangrencai.ywkj.view.MyListView
+                android:id="@+id/listviewworkexperience"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:layout_below="@+id/view_line_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!-- 工作经验-->
+
+
+            <View
+                android:id="@+id/view_height_10"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/listviewworkexperience"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+
+            <View
+                android:id="@+id/view_education_bcak"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_education_back"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_10"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_education_bcak"
+                android:text="教育背景" />
+
+            <View
+                android:id="@+id/view_line_10"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_education_back"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+            <com.yiwangrencai.ywkj.view.MyListView
+                android:id="@+id/listvieweduecationxperience"
+                android:listSelector="@android:color/transparent"
+                android:divider="@null"
+                android:layout_below="@+id/view_line_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!-- 教育背景-->
+
+
+            <View
+                android:id="@+id/view_height_11"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/listvieweduecationxperience"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+
+            <View
+                android:id="@+id/view_program_exp"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_11"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_program_exp"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_11"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_program_exp"
+                android:text="项目经历" />
+
+            <View
+                android:id="@+id/view_line_11"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_program_exp"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+            <com.yiwangrencai.ywkj.view.MyListView
+                android:id="@+id/listviewprojectexperience"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:layout_below="@+id/view_line_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- 项目经历-->
+
+            <View
+                android:id="@+id/view_height_12"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/listviewprojectexperience"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+
+            <View
+                android:id="@+id/view_language"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_12"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_language"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_12"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_program_exp"
+                android:text="语言能力" />
+
+            <View
+                android:id="@+id/view_line_12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_language"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+
+            <com.yiwangrencai.ywkj.view.MyListView
+                android:id="@+id/listviewlanguage"
+                android:listSelector="@android:color/transparent"
+                android:divider="@null"
+                android:layout_below="@+id/view_line_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- 语言能力-->
+
+            <View
+                android:id="@+id/view_height_13"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/listviewlanguage"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+
+            <View
+                android:id="@+id/view_skill"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_13"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_skill"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_13"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_program_exp"
+                android:text="技能专长" />
+
+            <View
+                android:id="@+id/view_line_13"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_skill"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+
+            <com.yiwangrencai.ywkj.view.MyListView
+                android:id="@+id/listviewskill"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:layout_below="@+id/view_line_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <!-- 技能专长-->
+
+
+            <View
+                android:id="@+id/view_height_14"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/listviewskill"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+
+            <View
+                android:id="@+id/view_book"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_14"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_book"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_14"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_program_exp"
+                android:text="获得证书" />
+
+            <View
+                android:id="@+id/view_line_14"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_book"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+
+
+            <com.yiwangrencai.ywkj.view.MyListView
+                android:id="@+id/listviewbook"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:layout_below="@+id/view_line_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- 证书-->
+
+
+            <View
+                android:id="@+id/view_height_15"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@+id/listviewbook"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f3" />
+
+
+            <View
+                android:id="@+id/view_other"
+                android:layout_width="5dp"
+                android:layout_height="16dp"
+                android:layout_below="@+id/view_height_15"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/text_color_green" />
+
+            <TextView
+                android:id="@+id/text_other_msg"
+                style="@style/preview_resume_text"
+                android:layout_below="@+id/view_height_15"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/view_program_exp"
+                android:text="其他信息" />
+
+            <View
+                android:id="@+id/view_line_15"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_other_msg"
+                android:layout_marginTop="10dp"
+                android:background="@color/view_line_f0" />
+
+
+
+            <com.yiwangrencai.ywkj.view.MyListView
+                android:id="@+id/listviewothermessage"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:layout_below="@+id/view_line_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <!-- 技能专长-->
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

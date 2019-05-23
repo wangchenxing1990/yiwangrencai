@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textlimit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="不限"
+        android:textColor="#565656"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_line_background"/>
+    <TextView
+        android:id="@+id/textarea"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="台州"
+        android:textColor="#565656"
+        android:textSize="15dp"
+        android:gravity="center"/>
+
+</LinearLayout>

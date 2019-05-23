@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sex_popu"
+        android:background="@drawable/shape_white_background"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/tv_cancel_discuss"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="取消"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textColor="#898989"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="显示面议"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:textColor="#898989"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_sure_discuss"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:gravity="center"
+            android:text="确定"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textColor="#898989"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_view_discuss"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="显示面议"
+        android:textColor="#ff0000"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0"/>
+    <TextView
+        android:id="@+id/tv_no_view_discuss"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="不显示面议"
+        android:textColor="#ff0000"/>
+
+    </LinearLayout>
+</LinearLayout>

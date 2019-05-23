@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_item"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="1px"
+        android:background="#95c5ef"
+        android:gravity="center"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_choose"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="1px"
+        android:gravity="center"
+        android:text="@string/icon_audit_pass"
+        android:textColor="#ff9c4b"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:singleLine="true" />
+    <!--android:layout_margin="1px"-->
+</RelativeLayout>
+
+
+

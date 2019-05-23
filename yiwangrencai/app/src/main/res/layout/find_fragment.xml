@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/text_color_green">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="职场资讯"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+    </FrameLayout>
+
+    <com.yiwangrencai.ywkj.view.ViewPagerIndicator
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:background="#fefefe"
+        android:id="@+id/view_pager_indicator" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager_find"
+        />
+
+
+</LinearLayout>

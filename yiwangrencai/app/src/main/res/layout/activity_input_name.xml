@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/public_title"
+
+        >
+
+        <FrameLayout
+
+            android:id="@+id/image_input_name_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/back_selector"
+            android:clickable="true"
+            >
+        <ImageView
+            android:layout_gravity="center"
+            style="@style/public_image_back"
+           />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/tv_input_title"
+            style="@style/public_text_middle"
+            android:text="姓名" />
+
+        <TextView
+            android:id="@+id/tv_save"
+            style="@style/public_text_next"
+            android:text="保存" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/shape_white_background">
+
+        <EditText
+            android:id="@+id/et_input_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/text_color_7"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="3dp"
+            android:background="@null" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_view_input_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="最多输入60个字/"
+            android:textColor="@color/off_btn_press"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_number_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/text_view_input_number"
+            android:gravity="center"
+            android:text="60"
+            android:textColor="@color/text_color_green"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tv_clear_all"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:background="@drawable/background_selector_editor"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="清空"
+            android:textColor="@color/text_color_green"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</LinearLayout>

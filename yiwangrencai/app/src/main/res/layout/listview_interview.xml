@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="2017-04-20"
+                android:textColor="#575757"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textjobtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bingguo"
+                android:textColor="#575757"
+                android:textSize="18dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textsalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000-1000元/月"
+            android:textColor="#ff8000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textcompanyname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Bingguo"
+            android:textColor="#575757"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#dfdfdf" />
+
+        <TextView
+            android:id="@+id/textname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zxb1,你好，看到你的简历符合我们公司的招聘信息条件"
+            android:textColor="#b5b5b5"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通知您"
+                android:textColor="#b5b5b5"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textinterview_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="2017-05-03 09:25"
+                android:textColor="#ff8000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="来公司参加面试"
+                android:textColor="#b5b5b5"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系人:"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/textcontacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sdln"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系电话"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/textmobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13333333333"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="座机:"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/textphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="213-12312312"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="面试地址:"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/textaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flk;sadfoiwjeioakjsdnlksakdnfgjklsa"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="乘车路线:"
+            android:textColor="#b5b5b5"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/textlines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flk;sadfoiwjeioakjsdnlksakdnfgjklsa"
+            android:textColor="#b5b5b5"
+            android:textSize="17dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="备注:"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:id="@+id/textremark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="iwjeikjsdnlksakdnfgjklsa"
+                android:textColor="#b5b5b5"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:background="#555555"
+            android:layout_marginBottom="5dp"
+            android:textSize="13dp"
+            android:text="未处理"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+
+</FrameLayout>

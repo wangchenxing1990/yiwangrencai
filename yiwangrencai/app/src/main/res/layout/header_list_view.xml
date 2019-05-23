@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_city_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="台州"
+        android:textColor="#000000"
+        android:textSize="18dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_city_grid"
+            android:background="#898989"/>
+
+    </RelativeLayout>
+
+
+    <com.yiwangrencai.ywkj.view.MyGridView
+        android:id="@+id/grid_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:persistentDrawingCache="animation|scrolling"
+        android:alwaysDrawnWithCache="true"
+        android:numColumns="3"
+        />
+</LinearLayout>

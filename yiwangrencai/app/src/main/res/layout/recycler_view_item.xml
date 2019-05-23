@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white_background"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            >
+            <TextView
+                android:id="@+id/tv_job_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:paddingLeft="8dp"
+                android:maxEms="6"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:ellipsize="end"
+                android:textSize="15sp"
+                android:textColor="@color/home_text_color"
+                android:text="工作的名称"/>
+
+            <TextView
+                android:id="@+id/tv_salary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:textSize="13sp"
+                android:textColor="@color/color_text_yellow"
+                android:text="工资的多少"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:paddingBottom="5dp"
+            >
+            <TextView
+                android:id="@+id/tv_company_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                android:paddingLeft="8dp"
+                android:paddingBottom="3dp"
+                android:textSize="14sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:maxEms="13"
+                android:textColor="@color/home_text_color"
+                android:text="公司的名称"/>
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:maxEms="4"
+                android:layout_alignParentRight="true"
+                android:paddingTop="2dp"
+                android:paddingRight="10dp"
+                android:textSize="13sp"
+                android:textColor="@color/color_text"
+                android:text="地址"/>
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:padding="2dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_address"
+                android:src="@mipmap/icon_address_sx"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

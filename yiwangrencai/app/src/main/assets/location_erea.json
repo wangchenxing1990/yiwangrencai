@@ -1,0 +1,56 @@
+{
+  "code": "1",
+  "msg": "",
+  "data": {
+    "cid": "331000",
+    "name": "\u53f0\u5dde\u5e02",
+    "next": 1,
+    "nexts": [
+      {
+        "cid": 331002,
+        "name": "\u6912\u6c5f\u533a",
+        "grade": 3
+      },
+      {
+        "cid": 331003,
+        "name": "\u9ec4\u5ca9\u533a",
+        "grade": 3
+      },
+      {
+        "cid": 331004,
+        "name": "\u8def\u6865\u533a",
+        "grade": 3
+      },
+      {
+        "cid": 331021,
+        "name": "\u7389\u73af\u53bf",
+        "grade": 3
+      },
+      {
+        "cid": 331022,
+        "name": "\u4e09\u95e8\u53bf",
+        "grade": 3
+      },
+      {
+        "cid": 331023,
+        "name": "\u5929\u53f0\u53bf",
+        "grade": 3
+      },
+      {
+        "cid": 331024,
+        "name": "\u4ed9\u5c45\u53bf",
+        "grade": 3
+      },
+      {
+        "cid": 331081,
+        "name": "\u6e29\u5cad\u5e02",
+        "grade": 3
+      },
+      {
+        "cid": 331082,
+        "name": "\u4e34\u6d77\u5e02",
+        "grade": 3
+      }
+    ]
+  }
+}
